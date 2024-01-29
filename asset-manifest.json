@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/translator-irina/static/css/main.c5c219f8.css",
+    "main.js": "/translator-irina/static/js/main.a34c5068.js",
+    "static/js/787.42bf3e66.chunk.js": "/translator-irina/static/js/787.42bf3e66.chunk.js",
+    "static/media/document2.jpg": "/translator-irina/static/media/document2.8397498106d7318a52a1.jpg",
+    "static/media/irina2.jpg": "/translator-irina/static/media/irina2.2fb05737f3f1fcc5b2fe.jpg",
+    "static/media/irina3.jpg": "/translator-irina/static/media/irina3.26aa57e9dac05ddab943.jpg",
+    "static/media/document1.jpg": "/translator-irina/static/media/document1.6612392effa9c605aa65.jpg",
+    "static/media/main.jpg": "/translator-irina/static/media/main.e4d8948d3c5d3d89a7ca.jpg",
+    "static/media/logo.png": "/translator-irina/static/media/logo.92f4418f54f4af6324a1.png",
+    "index.html": "/translator-irina/index.html",
+    "main.c5c219f8.css.map": "/translator-irina/static/css/main.c5c219f8.css.map",
+    "main.a34c5068.js.map": "/translator-irina/static/js/main.a34c5068.js.map",
+    "787.42bf3e66.chunk.js.map": "/translator-irina/static/js/787.42bf3e66.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c5c219f8.css",
+    "static/js/main.a34c5068.js"
+  ]
+}
