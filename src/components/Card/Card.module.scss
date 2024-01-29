@@ -70,3 +70,11 @@
     transform: translateY(-80px);
   }
 }
+
+@media screen and (max-width: 520px) {
+  .card {
+    &:hover {
+      transform: translateY(0px);
+    }
+  }
+}

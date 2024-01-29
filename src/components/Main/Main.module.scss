@@ -37,3 +37,54 @@ main {
     }
   }
 }
+
+// Mobile
+@media screen and (max-width: 520px) {
+  main {
+    .container {
+      padding: $PaddingMobile;
+      &::after {
+        top: 5%;
+        font-size: $fzH2;
+        width: 280px;
+      }
+
+      .button {
+        top: 60%;
+      }
+    }
+  }
+}
+
+//  Tablet SD
+@media screen and (min-width: 521px) and (max-width: 768px) {
+  main {
+    .container {
+      padding: $PaddingTablet;
+      &::after {
+        top: 5%;
+        font-size: $fzH2;
+      }
+
+      .button {
+        top: 60%;
+      }
+    }
+  }
+}
+
+// Tablet HD
+@media screen and (min-width: 769px) and (max-width: 1350px) {
+  main {
+    .container {
+      padding: $PaddingTablet;
+      &::after {
+        font-size: $fzH2;
+      }
+
+      .button {
+        top: 65%;
+      }
+    }
+  }
+}

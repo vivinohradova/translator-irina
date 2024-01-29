@@ -43,5 +43,53 @@ header {
         }
       }
     }
+
+    .menu_mobile {
+      display: none;
+      .gamburger {
+        margin: 20px;
+      }
+    }
+  }
+}
+
+// Mobile
+@media screen and (max-width: 520px) {
+  header {
+    .container {
+      width: 100%;
+
+      .menu {
+        display: block;
+        padding: $PaddingMobile;
+      }
+    }
+  }
+}
+
+//  Tablet SD
+@media screen and (min-width: 521px) and (max-width: 768px) {
+  header {
+    .container {
+      width: 100%;
+
+      .menu {
+        display: block;
+        padding: $PaddingTablet;
+      }
+    }
+  }
+}
+
+// Tablet HD
+@media screen and (min-width: 769px) and (max-width: 1350px) {
+  header {
+    .container {
+      width: 100%;
+
+      .menu {
+        padding: $PaddingTablet;
+      }
+    }
   }
 }
