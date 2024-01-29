@@ -1,0 +1,47 @@
+@import "../../assets/scss/Colors.module.scss";
+@import "../../assets/scss/Fonts.module.scss";
+
+header {
+  background-color: $Background;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  box-shadow: 0px 4px 15px -2px $Grey;
+
+  .container {
+    display: flex;
+    width: 1280px;
+    margin: 0 auto;
+    justify-content: space-between;
+    align-items: center;
+
+    .logo {
+      width: 100px;
+      height: 100px;
+    }
+
+    .menu {
+      display: flex;
+
+      li {
+        list-style: none;
+
+        button {
+          border: none;
+          background-color: $Background;
+          color: $MainColor;
+          font-size: $fz20;
+          font-weight: $Bold;
+          cursor: pointer;
+          margin-left: 30px;
+          transition: 0.4s ease;
+
+          &:hover {
+            color: $HoverColor;
+            box-shadow: 0 2px 0 0 $MainColor;
+          }
+        }
+      }
+    }
+  }
+}

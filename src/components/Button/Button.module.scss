@@ -1,0 +1,25 @@
+@import "../../assets/scss/Colors.module.scss";
+@import "../../assets/scss/Fonts.module.scss";
+
+.button {
+  color: $Background;
+  background: $MainColor;
+  border: none;
+  height: 60px;
+  font-weight: $Bold;
+  padding-left: 60px;
+  padding-right: 60px;
+  border-radius: 15px;
+  cursor: pointer;
+  transition: all 0.4s ease;
+
+  &:hover {
+    background: $Background;
+    color: $MainColor;
+    border: 1px solid $MainColor;
+  }
+
+  &:active {
+    background: $ActiveColor;
+  }
+}

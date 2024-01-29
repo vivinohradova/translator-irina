@@ -1,0 +1,18 @@
+@import "../../assets/scss/Colors.module.scss";
+@import "../../assets/scss/Fonts.module.scss";
+
+.contacts {
+  .container {
+    width: 1280px;
+    margin: 0 auto;
+
+    h3 {
+      text-align: center;
+      font-size: $fz20;
+    }
+    .c_container {
+      display: flex;
+      justify-content: space-between;
+    }
+  }
+}

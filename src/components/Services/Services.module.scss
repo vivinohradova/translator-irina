@@ -1,0 +1,43 @@
+@import "../../assets/scss/Colors.module.scss";
+@import "../../assets/scss/Fonts.module.scss";
+
+.services {
+  .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 1280px;
+    margin: 0 auto;
+
+    p.text {
+      font-size: $fz24;
+      font-weight: $Bold;
+      color: $HoverColor;
+      margin-bottom: $MText;
+      line-height: 1.5;
+      width: 65%;
+      text-align: center;
+    }
+
+    .card_container {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      grid-template-rows: repeat(auto-fill, minmax(350px, 1fr));
+      gap: 16px;
+      box-sizing: border-box;
+      margin: 50px 0;
+    }
+  }
+}
+
+// @media (min-width: 768px) {
+//   .grid-container {
+//     grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+//   }
+// }
+
+// @media (min-width: 1024px) {
+//   .grid-container {
+//     grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+//   }
+// }

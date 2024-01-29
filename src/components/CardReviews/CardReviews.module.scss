@@ -1,0 +1,35 @@
+@import "../../assets/scss/Colors.module.scss";
+@import "../../assets/scss/Fonts.module.scss";
+
+.card_reviews {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  height: 85%;
+  padding: 15px;
+  margin: 20px 0;
+  background: $Background;
+
+  .name {
+    color: $MainColor;
+    font-weight: $Bold;
+    font-size: $fz24;
+    padding-bottom: 10px;
+  }
+
+  .position {
+    color: $Grey;
+  }
+
+  .question_answer {
+    margin: 15px 0;
+    li {
+      list-style: none;
+      padding: 10px 0;
+
+      p {
+        margin-bottom: 10px;
+      }
+    }
+  }
+}

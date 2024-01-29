@@ -1,0 +1,47 @@
+@import "../../assets/scss/Colors.module.scss";
+@import "../../assets/scss/Fonts.module.scss";
+
+.about_me {
+  background: $BackgroundPink;
+  font-family: "Roboto", sans-serif;
+  .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 65%;
+    margin: 0 auto;
+  }
+
+  figure {
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    width: 100%;
+    text-align: justify;
+    .image {
+      width: 200px;
+    }
+    figcaption {
+      padding: 0 20px;
+      line-height: 1.2;
+
+      p {
+        padding-top: 25px;
+      }
+    }
+
+    &:nth-child(2) {
+      flex-direction: row-reverse;
+      margin-top: 20px;
+    }
+  }
+  .documents {
+    display: flex;
+    justify-content: space-around;
+    padding: 50px 0;
+
+    img {
+      height: 400px;
+    }
+  }
+}

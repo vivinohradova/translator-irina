@@ -1,0 +1,39 @@
+@import "../../assets/scss/Colors.module.scss";
+@import "../../assets/scss/Fonts.module.scss";
+
+main {
+  background: url(../../assets/images/main.jpg) no-repeat;
+  width: 100%;
+  height: 100vh;
+  background-size: cover;
+  background-position-y: 18%;
+  position: relative;
+
+  .container {
+    width: 1280px;
+    margin: 0 auto;
+    &::after {
+      content: "Перекладач Ірина Дергачова";
+      position: absolute;
+      top: 100px;
+      width: 390px;
+      font-size: $fz46;
+      font-weight: $Bold;
+      color: $MainColor;
+    }
+
+    &::before {
+      content: "Високоякісні переклади японсько-українською";
+      position: absolute;
+      top: 250px;
+      width: 300px;
+      font-size: $fz24;
+      font-weight: $Normal;
+      color: $HoverColor;
+    }
+    .button {
+      position: absolute;
+      top: 45%;
+    }
+  }
+}

@@ -1,0 +1,36 @@
+@import "../../assets/scss/Colors.module.scss";
+@import "../../assets/scss/Fonts.module.scss";
+
+.reviews {
+  background: $BackgroundCard;
+  .contaner {
+    width: 1280px;
+    margin: 0 auto;
+
+    .card_container {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-bottom: 50px;
+
+      .button {
+        padding: 5px 10px;
+        border: none;
+        background: $BackgroundCard;
+        color: $Grey;
+        font-size: $fz46;
+        transition: all 0.5s ease;
+        text-shadow: -1px -1px 1px rgba(255, 255, 255, 0.1),
+          1px 1px 1px rgba(0, 0, 0, 0.5);
+
+        &:hover {
+          cursor: pointer;
+        }
+
+        &:active {
+          color: $HoverColor;
+        }
+      }
+    }
+  }
+}
