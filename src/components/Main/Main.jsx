@@ -4,7 +4,7 @@ import Button from "../Button/Button";
 const Main = () => {
   return (
     <>
-      <main>
+      <main id="main">
         <div className={styles.container}>
           <Button
             text={"Отримати консультацію"}

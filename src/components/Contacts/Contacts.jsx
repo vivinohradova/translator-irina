@@ -5,7 +5,7 @@ import { FaFacebook, FaInstagramSquare, FaTelegram } from "react-icons/fa";
 const Contacts = () => {
   return (
     <>
-      <div className={styles.contacts}>
+      <div id="contacts" className={styles.contacts}>
         <div className={styles.container}>
           <h2>Контакти</h2>
           <h3>Завжди рада бути вам корисною!</h3>
