@@ -3,7 +3,7 @@
 
 .reviews {
   background: $BackgroundCard;
-  .contaner {
+  .container {
     width: 1280px;
     margin: 0 auto;
 
@@ -31,6 +31,33 @@
           color: $HoverColor;
         }
       }
+    }
+  }
+}
+
+// Mobile
+@media screen and (max-width: 520px) {
+  .reviews {
+    .container {
+      width: 100%;
+    }
+  }
+}
+
+//  Tablet SD
+@media screen and (min-width: 521px) and (max-width: 768px) {
+  .reviews {
+    .container {
+      width: 100%;
+    }
+  }
+}
+
+// Tablet HD
+@media screen and (min-width: 769px) and (max-width: 1350px) {
+  .reviews {
+    .container {
+      width: 100%;
     }
   }
 }

@@ -1,5 +1,6 @@
 import Form from "../Form/Form";
 import styles from "./Contacts.module.scss";
+import { FaFacebook, FaInstagramSquare, FaTelegram } from "react-icons/fa";
 
 const Contacts = () => {
   return (
@@ -9,14 +10,25 @@ const Contacts = () => {
           <h2>Контакти</h2>
           <h3>Завжди рада бути вам корисною!</h3>
           <div className={styles.c_container}>
-            <div>
-              <a href="tel: +3801234567890">+380 123 456 78 90</a>
-              <a href="mailto: hello.gmail.com">Email</a>
+            <div className={styles.social}>
+              <a href="tel: +818048322975">+81 804 832 29 75</a>
+              <p>
+                <a href="mailto: honyaku.iryna@gmail.com">
+                  honyaku.iryna@gmail.com
+                </a>
+              </p>
               <h4>Японія</h4>
-
-              <a href="#">facebook logo</a>
-              <a href="#">insta logo</a>
-              <a href="#">telegram logo</a>
+              <div className={styles.social_media}>
+                <a href="/">
+                  <FaFacebook className={styles.facebook} />
+                </a>
+                <a href="/">
+                  <FaInstagramSquare className={styles.instagram} />
+                </a>
+                <a href="/">
+                  <FaTelegram className={styles.telegram} />
+                </a>
+              </div>
             </div>
             <Form />
           </div>

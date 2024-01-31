@@ -9,10 +9,116 @@
     h3 {
       text-align: center;
       font-size: $fz20;
+      margin-bottom: $MText;
     }
     .c_container {
       display: flex;
       justify-content: space-between;
+
+      .social {
+        a {
+          text-decoration: none;
+          color: $HoverColor;
+          &:hover {
+            color: $MainColor;
+          }
+          &:active {
+            color: $ActiveColor;
+          }
+        }
+
+        .social_media {
+          a {
+            svg {
+              font-size: $fz24;
+              box-shadow: 2px 2px 2px $MainColor, 10px 1px 12px $MainColor,
+                2px 2px 10px $MainColor, 2px 2px 3px $MainColor,
+                inset 2px 2px 10px $MainColor, inset 2px 2px 10px $MainColor,
+                inset 2px 2px 10px $MainColor, inset 2px 2px 10px $MainColor;
+              border-radius: 29px;
+              padding: 11px 19px;
+              margin: 30px 10px;
+              animation: animate 3s linear infinite;
+              text-shadow: 0 0 50px #0072ff, 0 0 100px #0072ff,
+                0 0 150px #0072ff, 0 0 150px #0072ff;
+
+              &:hover {
+                transform: scale(1.1);
+              }
+            }
+            margin: 5px;
+          }
+          .instagram {
+            animation-delay: 0.3s;
+          }
+
+          .telegram {
+            animation-delay: 0.7s;
+          }
+
+          .facebook {
+            animation-delay: 0.1s;
+          }
+          @keyframes animate {
+            from {
+              filter: hue-rotate(0deg);
+            }
+            to {
+              filter: hue-rotate(360deg);
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+// Mobile
+@media screen and (max-width: 520px) {
+  .contacts {
+    .container {
+      width: 100%;
+
+      .c_container {
+        flex-direction: column-reverse;
+        padding: $PaddingMobile;
+
+        .social {
+          margin-top: $MText;
+        }
+      }
+    }
+  }
+}
+
+//  Tablet SD
+@media screen and (min-width: 521px) and (max-width: 768px) {
+  .contacts {
+    .container {
+      width: 100%;
+
+      .c_container {
+        flex-direction: column-reverse;
+        padding: $PaddingTablet;
+        align-items: center;
+
+        .social {
+          margin-top: $MText;
+        }
+      }
+    }
+  }
+}
+
+// Tablet HD
+@media screen and (min-width: 769px) and (max-width: 1350px) {
+  .contacts {
+    .container {
+      width: 100%;
+
+      .c_container {
+        padding: $PaddingTablet;
+      }
     }
   }
 }

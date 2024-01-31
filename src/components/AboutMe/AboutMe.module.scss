@@ -76,8 +76,48 @@
 
 //  Tablet SD
 @media screen and (min-width: 521px) and (max-width: 768px) {
+  .about_me {
+    .container {
+      width: 100%;
+      figure {
+        flex-direction: column;
+        align-items: center;
+
+        .image {
+          margin-bottom: 20px;
+        }
+
+        &:nth-child(2) {
+          flex-direction: column;
+          margin-top: 20px;
+        }
+      }
+
+      .documents {
+        img {
+          width: 90%;
+        }
+      }
+    }
+  }
 }
 
 // Tablet HD
 @media screen and (min-width: 769px) and (max-width: 1350px) {
+  .about_me {
+    .container {
+      width: 100%;
+
+      figure {
+        padding: $PaddingTablet;
+      }
+
+      .documents {
+        img {
+          width: 45%;
+          padding: $PaddingTablet;
+        }
+      }
+    }
+  }
 }
