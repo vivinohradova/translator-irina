@@ -77,7 +77,7 @@ const Reviews = () => {
   return (
     <>
       <section className={styles.reviews}>
-        <div className={styles.contaner}>
+        <div className={styles.container}>
           <h2>Відгуки</h2>
           <div className={styles.card_container}>
             <button className={styles.button} onClick={handlePrevClick}>
