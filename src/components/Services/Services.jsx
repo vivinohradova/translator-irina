@@ -30,7 +30,7 @@ const rewiewsName = {
 
 const Services = () => {
   return (
-    <section className={styles.services}>
+    <section id="services" className={styles.services}>
       <div className={styles.container}>
         <h2>Послуги</h2>
         <p className={styles.text}>

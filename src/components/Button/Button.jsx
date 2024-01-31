@@ -1,11 +1,18 @@
 import styles from "./Button.module.scss";
+import scrollToElement from "../Services/ScrollUtils/ScrollUtils";
 
 const Button = ({ text, className, type }) => {
+  const handleClick = (e, targetId) => {
+    e.preventDefault();
+    scrollToElement(targetId);
+  };
   return (
     <>
-      <button className={`${styles.button} ${className}`} type={type}>
-        {text}
-      </button>
+      <a href="#contacts" onClick={(e) => handleClick(e, "contacts")}>
+        <button className={`${styles.button} ${className}`} type={type}>
+          {text}
+        </button>
+      </a>
     </>
   );
 };

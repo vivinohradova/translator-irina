@@ -7,7 +7,7 @@ import document2 from "../../assets/images/document2.jpg";
 const AboutMe = () => {
   return (
     <>
-      <section className={styles.about_me}>
+      <section id="about" className={styles.about_me}>
         <div className={styles.container}>
           <h2 className={styles.title}>Про мене</h2>
 

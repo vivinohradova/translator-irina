@@ -18,15 +18,6 @@ const Form = () => {
   };
   return (
     <>
-      {isFormSubmitted && (
-        <div
-          className={styles.successMessage}
-          role="alert"
-          aria-live="assertive"
-        >
-          Форма успішно відправлена!
-        </div>
-      )}
       <form
         onSubmit={handleFormSubmit}
         className={styles.form_container}
@@ -77,7 +68,17 @@ const Form = () => {
           value={text}
           onChange={(e) => setText(e.target.value)}
         />
-        <Button text="Відправити" type="submit" className={styles.button} />
+        {/* <Button text="Відправити" type="submit" className={styles.button} /> */}
+        {isFormSubmitted && (
+          <div
+            className={styles.successMessage}
+            role="alert"
+            aria-live="assertive"
+          >
+            Форма успішно відправлена!
+          </div>
+        )}
+        <button className={styles.button}>Відправити</button>
       </form>
     </>
   );

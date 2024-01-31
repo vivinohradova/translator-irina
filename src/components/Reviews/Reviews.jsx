@@ -76,7 +76,7 @@ const Reviews = () => {
 
   return (
     <>
-      <section className={styles.reviews}>
+      <section id="reviews" className={styles.reviews}>
         <div className={styles.container}>
           <h2>Відгуки</h2>
           <div className={styles.card_container}>
