@@ -1,6 +1,5 @@
 import styles from "./Button.module.scss";
-import scrollToElement from "../Services/ScrollUtils/ScrollUtils";
-
+import scrollToElement from "../ScrollUtils/ScrollUtils";
 const Button = ({ text, className, type }) => {
   const handleClick = (e, targetId) => {
     e.preventDefault();

@@ -17,7 +17,7 @@ const Contacts = () => {
                   honyaku.iryna@gmail.com
                 </a>
               </p>
-              <h4>Японія</h4>
+              <h4>м.Токіо, Японія</h4>
               <div className={styles.social_media}>
                 <a href="/">
                   <FaFacebook className={styles.facebook} />

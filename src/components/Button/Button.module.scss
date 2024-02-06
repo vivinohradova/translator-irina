@@ -23,3 +23,10 @@
     background: $ActiveColor;
   }
 }
+
+@media screen and (min-width: 521px) and (max-width: 641px) {
+  .button {
+    padding-left: 16%;
+    padding-right: 16%;
+  }
+}

@@ -1,5 +1,5 @@
 import logo from "../../assets/images/logo.png";
-import scrollToElement from "../Services/ScrollUtils/ScrollUtils";
+import scrollToElement from "../ScrollUtils/ScrollUtils";
 import styles from "./Header.module.scss";
 import { GiHamburgerMenu } from "react-icons/gi";
 

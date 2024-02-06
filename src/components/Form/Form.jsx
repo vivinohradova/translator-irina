@@ -64,7 +64,7 @@ const Form = () => {
         <textarea
           className={styles.textarea}
           id="text"
-          placeholder="Ваше питання"
+          placeholder="Напишіть ваш запит"
           value={text}
           onChange={(e) => setText(e.target.value)}
         />
