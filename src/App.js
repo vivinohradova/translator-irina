@@ -5,20 +5,29 @@ import Header from "./components/Header/Header";
 import Main from "./components/Main/Main";
 import Reviews from "./components/Reviews/Reviews";
 import Services from "./components/Services/Services";
+import { LanguageProvider } from "./components/LanguageContext";
+
+const lngs = {
+  ua: { nativeName: "Ukrainian" },
+  en: { nativeName: "English" },
+  jp: { nativeName: "Japanese" },
+};
 
 function App() {
   return (
     <>
-      <div className={style.app}>
-        <div className={style.container}>
-          <Header />
-          <Main />
-          <Services />
-          <AboutMe />
-          <Reviews />
-          <Contacts />
+      <LanguageProvider>
+        <div className={style.app}>
+          <div className={style.container}>
+            <Header />
+            <Main />
+            <Services />
+            <AboutMe />
+            <Reviews />
+            <Contacts />
+          </div>
         </div>
-      </div>
+      </LanguageProvider>
     </>
   );
 }

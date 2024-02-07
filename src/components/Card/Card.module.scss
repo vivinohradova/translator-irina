@@ -40,6 +40,7 @@
     visibility: hidden;
     opacity: 0;
     transition: opacity 0.3s ease;
+    text-align: center;
 
     li {
       padding: 2px 0;
@@ -55,7 +56,8 @@
   .button {
     position: absolute;
     bottom: 20px;
-    right: 40px;
+    right: 15%;
+    width: 200px;
   }
 
   &:hover {
@@ -79,4 +81,3 @@
     }
   }
 }
-

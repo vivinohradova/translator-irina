@@ -1,7 +1,10 @@
 import styles from "./Card.module.scss";
 import Button from "../Button/Button";
+import { useTranslation } from "react-i18next";
 
-const Card = ({ className, title, menuItems, subtitle }) => {
+const Card = ({ className, title, menuItems, subtitle, price }) => {
+  const { t } = useTranslation();
+
   return (
     <>
       <div className={`${styles.card} ${className}`}>
@@ -11,10 +14,10 @@ const Card = ({ className, title, menuItems, subtitle }) => {
           {menuItems.map((item) => (
             <li key={item}>{item}</li>
           ))}
-          <div className={styles.price}>Від...грн</div>
+          <div className={styles.price}>{price}</div>
         </ul>
 
-        <Button text={"Замовити"} type={"button"} className={styles.button} />
+        <Button text={t("order")} type={"button"} className={styles.button} />
       </div>
     </>
   );
