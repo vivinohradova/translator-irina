@@ -7,12 +7,6 @@ import Reviews from "./components/Reviews/Reviews";
 import Services from "./components/Services/Services";
 import { LanguageProvider } from "./components/LanguageContext";
 
-const lngs = {
-  ua: { nativeName: "Ukrainian" },
-  en: { nativeName: "English" },
-  jp: { nativeName: "Japanese" },
-};
-
 function App() {
   return (
     <>
