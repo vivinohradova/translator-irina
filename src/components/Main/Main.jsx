@@ -9,6 +9,8 @@ const Main = () => {
     <>
       <main id="main">
         <div className={styles.container}>
+          <h1 className={styles.title}>{t("mainName")}</h1>
+          <p className={styles.text}>{t("mainText")}</p>
           <Button
             text={t("getConsultation")}
             type={"button"}
