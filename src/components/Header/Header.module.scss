@@ -20,11 +20,39 @@ header {
       height: 70px;
     }
 
+    .buttonLang {
+      border: none;
+      margin: 5px;
+      border-radius: 20px;
+      padding: 0 1vi;
+      color: $HoverColor;
+      background: $BackgroundPink;
+      cursor: pointer;
+      box-shadow: 0 2px 5px 0 $Shadow;
+      transition: all 0.3s ease;
+
+      &:hover {
+        background: $SubmitHover;
+      }
+
+      &:active {
+        background: $Submit;
+        box-shadow: inset 0 2px 5px 0 $Shadow;
+      }
+    }
+    .selected {
+      background-color: $Submit;
+    }
+
     .menu {
       display: flex;
 
       li {
         list-style: none;
+
+        &:not(:first-child) button {
+          margin-left: 30px;
+        }
 
         button {
           border: none;
@@ -33,7 +61,7 @@ header {
           font-size: $fz20;
           font-weight: $Bold;
           cursor: pointer;
-          margin-left: 30px;
+
           transition: 0.4s ease;
 
           &:hover {
@@ -62,6 +90,10 @@ header {
       .menu {
         display: block;
         padding: $PaddingMobile;
+
+        li {
+          list-style: none;
+        }
       }
     }
   }
@@ -76,6 +108,12 @@ header {
       .menu {
         display: block;
         padding: $PaddingTablet;
+
+        li {
+          &:first-child button {
+            margin-left: 30px;
+          }
+        }
       }
     }
   }
@@ -88,7 +126,7 @@ header {
       width: 100%;
 
       .menu {
-        padding: $PaddingTablet;
+        padding-right: 30px;
       }
     }
   }

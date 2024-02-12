@@ -4,10 +4,14 @@ import scrollToElement from "../ScrollUtils/ScrollUtils";
 import styles from "./Header.module.scss";
 import { GiHamburgerMenu } from "react-icons/gi";
 import { useTranslation } from "react-i18next";
+import { useState } from "react";
 
 const Header = () => {
   const { changeLanguage } = useLanguage();
   const { t } = useTranslation();
+  const [selectedLanguage, setSelectedLanguage] = useState(null);
+
+  const languages = ["ua", "en", "jp"];
 
   const handleClick = (e, targetId) => {
     e.preventDefault();
@@ -21,9 +25,17 @@ const Header = () => {
             <img className={styles.logo} src={logo} alt="logo" />
           </a>
           <div>
-            <button onClick={() => changeLanguage("ua")}>UA</button>
-            <button onClick={() => changeLanguage("en")}>EN</button>
-            <button onClick={() => changeLanguage("jp")}>JP</button>
+            {languages.map((lang, index) => (
+              <button
+                className={`${styles.buttonLang} ${
+                  selectedLanguage === lang ? styles.selected : ""
+                }`}
+                key={index}
+                onClick={() => { changeLanguage(lang); setSelectedLanguage(lang);}}
+              >
+                {lang.toUpperCase()}
+              </button>
+            ))}
           </div>
           <nav className={styles.menu}>
             <li>

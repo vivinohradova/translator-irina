@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import styles from "./Form.module.scss";
 import PhoneInput, { isPossiblePhoneNumber } from "react-phone-number-input";
 import "react-phone-number-input/style.css";
@@ -7,17 +7,47 @@ import { useTranslation } from "react-i18next";
 const Form = () => {
   const { t } = useTranslation();
 
-  const [name, setName] = useState();
+  const [name, setName] = useState("");
   const [phoneNumber, setPhoneNumber] = useState();
   const [email, setEmail] = useState();
   const [text, setText] = useState();
   const [isFormSubmitted, setIsFormSubmitted] = useState(false);
+  const [errorName, setErrorName] = useState("");
+  const [errorEmail, setErrorEmail] = useState("");
+  const [isDisabled, setIsDisabled] = useState(true);
+
+  useEffect(() => {
+    setIsDisabled(!name || !phoneNumber || !email || errorEmail || errorName);
+  }, [name, phoneNumber, email, errorEmail, errorName]);
 
   const handleFormSubmit = (e) => {
     e.preventDefault();
 
+    setName("");
+    setPhoneNumber("");
+    setEmail("");
+    setText("");
+
     setIsFormSubmitted(true);
   };
+
+  const handleValidateName = () => {
+    if (name.trim() === "") {
+      setErrorName("Ім'я немає бути пустим");
+    } else {
+      setErrorName("");
+    }
+  };
+
+  const handleValidateEmail = () => {
+    const emailRegex = /^\S+@\S+\.\S+$/;
+    if (!emailRegex.test(email)) {
+      setErrorEmail("Невірна пошта");
+    } else {
+      setErrorEmail("");
+    }
+  };
+
   return (
     <>
       <form
@@ -34,7 +64,11 @@ const Form = () => {
           placeholder={t("formName")}
           value={name}
           onChange={(e) => setName(e.target.value)}
+          onBlur={handleValidateName}
+          required
         />
+        {errorName && <p className={styles.errorMessage}>{errorName}</p>}
+
         <label htmlFor="tel"></label>
         <PhoneInput
           className={styles.country}
@@ -54,7 +88,9 @@ const Form = () => {
               : "Phone number required"
           }
         />
-        {phoneNumber && isPossiblePhoneNumber(phoneNumber) ? "" : ""}
+        {phoneNumber && !isPossiblePhoneNumber(phoneNumber) && (
+          <p className={styles.errorMessage}>Невірний номер</p>
+        )}
         <input
           className={styles.input}
           type="email"
@@ -62,7 +98,10 @@ const Form = () => {
           placeholder={t("formMail")}
           value={email}
           onChange={(e) => setEmail(e.target.value)}
+          onBlur={handleValidateEmail}
         />
+        {errorEmail && <p className={styles.errorMessage}>{errorEmail}</p>}
+
         <textarea
           className={styles.textarea}
           id="text"
@@ -80,7 +119,9 @@ const Form = () => {
             {t("formSucces")}
           </div>
         )}
-        <button className={styles.button}>{t("send")}</button>
+        <button className={styles.button} disabled={isDisabled}>
+          {t("send")}
+        </button>
       </form>
     </>
   );

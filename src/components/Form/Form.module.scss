@@ -10,9 +10,15 @@
     padding: 20px;
     width: 300px;
     margin-bottom: 20px;
+    background-color: $Background;
 
     &:focus {
       outline: none;
+      background-color: $Background;
+    }
+
+    &:-webkit-autofill {
+      -webkit-box-shadow: 0 0 0 40px $Background inset;
     }
   }
 
@@ -23,8 +29,12 @@
     margin-bottom: 20px;
     input {
       border: none;
+      &:-webkit-autofill {
+        -webkit-box-shadow: 0 0 0 40px $Background inset;
+      }
       &:focus {
         outline: none;
+        background-color: $Background;
       }
     }
   }
@@ -33,6 +43,7 @@
     padding: 10px;
     margin-bottom: 20px;
     height: 120px;
+    border: 1px solid $Grey;
 
     &:focus {
       outline: none;
@@ -57,5 +68,21 @@
     &:active {
       background-color: $ActiveColor;
     }
+
+    &:disabled {
+      background-color: $DisabledColor;
+      color: $DisabledTextColor;
+      cursor: not-allowed;
+    }
+  }
+
+  .errorMessage,
+  .successMessage {
+    color: $Error;
+    margin-bottom: 20px;
+    margin-top: -20px;
+  }
+  .successMessage {
+    color: $Success;
   }
 }
