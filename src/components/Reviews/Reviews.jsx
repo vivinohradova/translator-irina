@@ -1,6 +1,7 @@
 import styles from "./Reviews.module.scss";
 import CardReviews from "../CardReviews/CardReviews";
 import { useState } from "react";
+import { useTranslation } from "react-i18next";
 
 const usersData = [
   {
@@ -61,6 +62,7 @@ const usersData = [
 ];
 
 const Reviews = () => {
+  const { t } = useTranslation();
   const [activeCardIndex, setActiveCardIndex] = useState(0);
 
   const handlePrevClick = () => {
@@ -78,7 +80,7 @@ const Reviews = () => {
     <>
       <section id="reviews" className={styles.reviews}>
         <div className={styles.container}>
-          <h2>Відгуки</h2>
+          <h2>{t("reviews")}</h2>
           <div className={styles.card_container}>
             <button className={styles.button} onClick={handlePrevClick}>
               &#60;

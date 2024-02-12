@@ -1,14 +1,16 @@
 import Form from "../Form/Form";
 import styles from "./Contacts.module.scss";
 import { FaFacebook, FaInstagramSquare, FaTelegram } from "react-icons/fa";
+import { useTranslation } from "react-i18next";
 
 const Contacts = () => {
+  const { t } = useTranslation();
   return (
     <>
       <div id="contacts" className={styles.contacts}>
         <div className={styles.container}>
-          <h2>Контакти</h2>
-          <h3>Завжди рада бути вам корисною!</h3>
+          <h2>{t("contact")}</h2>
+          <h3>{t("contactText")}</h3>
           <div className={styles.c_container}>
             <div className={styles.social}>
               <a href="tel: +818048322975">+81 804 832 29 75</a>
@@ -17,7 +19,7 @@ const Contacts = () => {
                   honyaku.iryna@gmail.com
                 </a>
               </p>
-              <h4>м.Токіо, Японія</h4>
+              <h4>{t("city")}</h4>
               <div className={styles.social_media}>
                 <a href="/">
                   <FaFacebook className={styles.facebook} />

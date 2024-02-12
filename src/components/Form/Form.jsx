@@ -2,8 +2,11 @@ import { useState } from "react";
 import styles from "./Form.module.scss";
 import PhoneInput, { isPossiblePhoneNumber } from "react-phone-number-input";
 import "react-phone-number-input/style.css";
+import { useTranslation } from "react-i18next";
 
 const Form = () => {
+  const { t } = useTranslation();
+
   const [name, setName] = useState();
   const [phoneNumber, setPhoneNumber] = useState();
   const [email, setEmail] = useState();
@@ -21,14 +24,14 @@ const Form = () => {
         onSubmit={handleFormSubmit}
         className={styles.form_container}
         action="mailto:honyaku.iryna@gmail.com"
-        method="post"
+        method="get"
         encType="text/plain"
       >
         <input
           className={styles.input}
           type="text"
           id="name"
-          placeholder="Ваше ім'я"
+          placeholder={t("formName")}
           value={name}
           onChange={(e) => setName(e.target.value)}
         />
@@ -56,28 +59,28 @@ const Form = () => {
           className={styles.input}
           type="email"
           id="email"
-          placeholder="Ваша пошта"
+          placeholder={t("formMail")}
           value={email}
           onChange={(e) => setEmail(e.target.value)}
         />
         <textarea
           className={styles.textarea}
           id="text"
-          placeholder="Напишіть ваш запит"
+          placeholder={t("request")}
           value={text}
           onChange={(e) => setText(e.target.value)}
         />
-        {/* <Button text="Відправити" type="submit" className={styles.button} /> */}
+
         {isFormSubmitted && (
           <div
             className={styles.successMessage}
             role="alert"
             aria-live="assertive"
           >
-            Форма успішно відправлена!
+            {t("formSucces")}
           </div>
         )}
-        <button className={styles.button}>Відправити</button>
+        <button className={styles.button}>{t("send")}</button>
       </form>
     </>
   );
