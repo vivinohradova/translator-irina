@@ -3,7 +3,8 @@
 
 .about_me {
   background: $BackgroundPink;
-  font-family: "Roboto", sans-serif;
+  font-family: $Sawarabi;
+
   .container {
     display: flex;
     flex-direction: column;

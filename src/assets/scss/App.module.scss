@@ -131,8 +131,12 @@ table {
 @import "./Colors.module.scss";
 @import "./Fonts.module.scss";
 
-* {
-  font-family: $Roboto;
+*,
+p,
+h3,
+li,
+div {
+  font-family: $Sawarabi;
   font-size: $MainSize;
   line-height: 1.5;
 }
@@ -148,13 +152,5 @@ h2 {
   font-weight: $Bold;
   color: $MainColor;
   text-align: center;
-  font-family: $Roboto;
-}
-p,
-h3,
-li,
-div {
-  font-family: $Roboto;
-  font-size: $MainSize;
-  line-height: 1.5;
+  font-family: $Sawarabi;
 }
