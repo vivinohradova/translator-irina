@@ -93,6 +93,10 @@ header {
 
         li {
           list-style: none;
+
+          &:first-child button {
+            margin-left: 30px;
+          }
         }
       }
     }

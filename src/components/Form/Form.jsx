@@ -8,9 +8,9 @@ const Form = () => {
   const { t } = useTranslation();
 
   const [name, setName] = useState("");
-  const [phoneNumber, setPhoneNumber] = useState();
-  const [email, setEmail] = useState();
-  const [text, setText] = useState();
+  const [phoneNumber, setPhoneNumber] = useState("");
+  const [email, setEmail] = useState("");
+  const [text, setText] = useState("");
   const [isFormSubmitted, setIsFormSubmitted] = useState(false);
   const [errorName, setErrorName] = useState("");
   const [errorEmail, setErrorEmail] = useState("");
@@ -20,15 +20,35 @@ const Form = () => {
     setIsDisabled(!name || !phoneNumber || !email || errorEmail || errorName);
   }, [name, phoneNumber, email, errorEmail, errorName]);
 
-  const handleFormSubmit = (e) => {
+  const handleFormSubmit = async (e) => {
     e.preventDefault();
 
-    setName("");
-    setPhoneNumber("");
-    setEmail("");
-    setText("");
+    try {
+      const response = await fetch("sendmail.php", {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+        },
+        body: new URLSearchParams({
+          name,
+          phoneNumber,
+          email,
+          text,
+        }),
+      });
 
-    setIsFormSubmitted(true);
+      if (!response.ok) {
+        throw new Error("Network response was not ok");
+      }
+
+      setIsFormSubmitted(true);
+      setName("");
+      setPhoneNumber("");
+      setEmail("");
+      setText("");
+    } catch (error) {
+      console.error("Error submitting form:", error);
+    }
   };
 
   const handleValidateName = () => {
@@ -53,9 +73,9 @@ const Form = () => {
       <form
         onSubmit={handleFormSubmit}
         className={styles.form_container}
-        action="mailto:honyaku.iryna@gmail.com"
-        method="get"
-        encType="text/plain"
+        action="sendmail.php"
+        method="post"
+        encType="multipart/form-data"
       >
         <input
           className={styles.input}
