@@ -1,6 +1,6 @@
 import styles from "./Reviews.module.scss";
 import CardReviews from "../CardReviews/CardReviews";
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import { useTranslation } from "react-i18next";
 
 const usersData = [
@@ -64,17 +64,29 @@ const usersData = [
 const Reviews = () => {
   const { t } = useTranslation();
   const [activeCardIndex, setActiveCardIndex] = useState(0);
+  const [autoSwitchEnabled, setAutoSwitchEnabled] = useState(true);
 
   const handlePrevClick = () => {
     setActiveCardIndex((prevIndex) =>
       prevIndex > 0 ? prevIndex - 1 : usersData.length - 1
     );
+    setAutoSwitchEnabled(false);
   };
   const handleNextClick = () => {
     setActiveCardIndex((nextIndex) =>
       nextIndex < usersData.length - 1 ? nextIndex + 1 : 0
     );
+    setAutoSwitchEnabled(false);
   };
+
+  useEffect(() => {
+    let intervalId;
+    if (autoSwitchEnabled) {
+      intervalId = setInterval(handleNextClick, 5000);
+    }
+
+    return () => clearInterval(intervalId);
+  }, [autoSwitchEnabled]);
 
   return (
     <>
