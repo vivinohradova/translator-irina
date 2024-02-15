@@ -13,21 +13,26 @@ const Contacts = () => {
           <h3>{t("contactText")}</h3>
           <div className={styles.c_container}>
             <div className={styles.social}>
-              <a href="tel: +818048322975">+81 804 832 29 75</a>
+              <a className={styles.tel} href="tel: +818048322975">
+                +81 804 832 29 75
+              </a>
               <p>
-                <a href="mailto: honyaku.iryna@gmail.com">
+                <a
+                  className={styles.email}
+                  href="mailto: honyaku.iryna@gmail.com"
+                >
                   honyaku.iryna@gmail.com
                 </a>
               </p>
               <h4>{t("city")}</h4>
               <div className={styles.social_media}>
-                <a href="/">
+                <a href="https://www.facebook.com/profile.php/?id=100002520567489">
                   <FaFacebook className={styles.facebook} />
                 </a>
-                <a href="/">
+                <a href="https://www.instagram.com/iryna_derhachova?igsh=ZDE0aGMzYmZ6dXg4">
                   <FaInstagramSquare className={styles.instagram} />
                 </a>
-                <a href="/">
+                <a href="https://t.me/dreamiren777">
                   <FaTelegram className={styles.telegram} />
                 </a>
               </div>

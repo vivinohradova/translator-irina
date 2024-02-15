@@ -2,6 +2,10 @@
 @import "../../assets/scss/Fonts.module.scss";
 
 .services {
+  background: no-repeat url("../../assets/images/background.png");
+  background-size: 20%;
+  background-position: right top;
+
   .container {
     display: flex;
     flex-direction: column;
@@ -33,6 +37,7 @@
 // Mobile
 @media screen and (max-width: 520px) {
   .services {
+    background-size: 30%;
     .container {
       width: 100%;
 
@@ -74,6 +79,7 @@
 
       p.text {
         font-size: $fz20;
+        width: 60%;
       }
 
       .card_container {
