@@ -1,6 +1,6 @@
 import styles from "./Reviews.module.scss";
 import CardReviews from "../CardReviews/CardReviews";
-import { useEffect, useState } from "react";
+import { useEffect, useRef, useState } from "react";
 import { useTranslation } from "react-i18next";
 
 const usersData = [
@@ -65,6 +65,21 @@ const Reviews = () => {
   const { t } = useTranslation();
   const [activeCardIndex, setActiveCardIndex] = useState(0);
   const [autoSwitchEnabled, setAutoSwitchEnabled] = useState(true);
+  const intervalRef = useRef(null);
+
+  useEffect(() => {
+    if (autoSwitchEnabled) {
+      intervalRef.current = setInterval(() => {
+        setActiveCardIndex((prevIndex) =>
+          prevIndex < usersData.length - 1 ? prevIndex + 1 : 0
+        );
+      }, 5000);
+    } else {
+      clearInterval(intervalRef.current);
+    }
+
+    return () => clearInterval(intervalRef.current);
+  }, [autoSwitchEnabled]);
 
   const handlePrevClick = () => {
     setActiveCardIndex((prevIndex) =>
@@ -72,21 +87,13 @@ const Reviews = () => {
     );
     setAutoSwitchEnabled(false);
   };
+
   const handleNextClick = () => {
     setActiveCardIndex((nextIndex) =>
       nextIndex < usersData.length - 1 ? nextIndex + 1 : 0
     );
     setAutoSwitchEnabled(false);
   };
-
-  useEffect(() => {
-    let intervalId;
-    if (autoSwitchEnabled) {
-      intervalId = setInterval(handleNextClick, 5000);
-    }
-
-    return () => clearInterval(intervalId);
-  }, [autoSwitchEnabled]);
 
   return (
     <>
