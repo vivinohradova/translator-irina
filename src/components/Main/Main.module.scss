@@ -31,7 +31,7 @@ main {
     }
     .button {
       position: absolute;
-      top: 57%;
+      top: 65%;
     }
   }
 }
@@ -46,10 +46,6 @@ main {
         font-size: $fzH2;
         width: 280px;
       }
-
-      .button {
-        top: 65%;
-      }
     }
   }
 }
@@ -63,10 +59,6 @@ main {
         top: 3%;
         font-size: $fzH2;
       }
-
-      .button {
-        top: 60%;
-      }
     }
   }
 }
@@ -78,10 +70,6 @@ main {
       padding: $PaddingTablet;
       .title {
         font-size: $fzH2;
-      }
-
-      .button {
-        top: 65%;
       }
     }
   }

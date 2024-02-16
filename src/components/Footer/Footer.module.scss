@@ -1,5 +1,85 @@
+@import "../../assets/scss/Colors.module.scss";
+@import "../../assets/scss/Fonts.module.scss";
+
 .footer {
+  background: $BackgroundPink;
+
   .container {
+    width: 1280px;
+    height: 8vh;
+    margin: 0 auto;
     display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+
+    .topLink {
+      position: absolute;
+      left: 0;
+      text-decoration: none;
+      color: $MainColor;
+      font-size: $fzH2;
+
+      &:hover {
+        color: $SubmitHover;
+      }
+    }
+    .developerLink {
+      text-decoration: none;
+      color: $MainColor;
+    }
+  }
+}
+
+// Mobile
+@media screen and (max-width: 520px) {
+  .footer {
+    padding: $PaddingMobile;
+    .container {
+      width: 100%;
+      height: 18vh;
+
+      .topLink {
+        left: 40vw;
+        top: 0;
+        font-size: 2rem;
+      }
+
+      .rights {
+        font-size: 14px;
+      }
+    }
+  }
+}
+
+//  Tablet SD
+@media screen and (min-width: 521px) and (max-width: 768px) {
+  .footer {
+    padding: $PaddingTablet;
+    .container {
+      width: 100%;
+      height: 18vh;
+
+      .topLink {
+        left: 40vw;
+        top: 0;
+        font-size: 2rem;
+      }
+    }
+  }
+}
+
+// Tablet HD
+@media screen and (min-width: 769px) and (max-width: 1350px) {
+  .footer {
+    padding: $PaddingTablet;
+    .container {
+      width: 100%;
+      height: 8vh;
+
+      .topLink {
+        font-size: 2rem;
+      }
+    }
   }
 }
