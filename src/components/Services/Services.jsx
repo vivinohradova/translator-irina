@@ -25,7 +25,7 @@ const rewiewsName = {
     "business",
     "accompanying",
   ],
-  service4: ["subtitles", "transcription", "voicing"],
+  service4: ["transcription", "subtitles", "voicing"],
 };
 const Services = () => {
   const { t } = useTranslation();

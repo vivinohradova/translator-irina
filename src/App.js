@@ -6,6 +6,7 @@ import Main from "./components/Main/Main";
 import Reviews from "./components/Reviews/Reviews";
 import Services from "./components/Services/Services";
 import { LanguageProvider } from "./components/LanguageContext";
+import Footer from "./components/Footer/Footer";
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
             <AboutMe />
             <Reviews />
             <Contacts />
+            <Footer />
           </div>
         </div>
       </LanguageProvider>

@@ -20,10 +20,11 @@ i18n
           menuContact: "Контакти",
 
           mainName: "Перекладач Ірина Дергачова",
-          mainText: "Високоякісні переклади японсько-українською",
+          mainText:
+            "Високоякісні переклади з/на японську та англійську мову. Викладання японської та англійської мови, майстер-класи.",
           getConsultation: "Отримати консультацію",
           serviceText:
-            "Пропоную достовірний та якісний переклад з японської мови на українську та з української на японську мову. Також за потребою працюю з англійською мовою.",
+            "Пропоную достовірний та якісний переклад з японської на українську, з української на японську, а також з української на англійську, з англійської на українську мову.",
           writtenTranslation: "Письмовий переклад",
 
           general: "Загальний",
@@ -35,19 +36,19 @@ i18n
           oral: "Усний (послідовний) переклад",
           online: "Онлайн",
           interview: "Інтерв’ю, репортаж",
-          business: "Бізнес",
-          conference: "Наукова конференція",
+          business: "Бізнес зустрічі",
+          conference: "Лекції та конференції",
           negotiations: "Політичні перемовини",
           conversation: "Проста розмова на загальні теми",
 
           spot: "На місці",
           television: "Телебачення, ЗМІ, радіо",
-          socialProjects: "Соціальні проекти та організації",
+          socialProjects: "Соціальні проекти",
           accompanying: "Супровідний переклад",
 
           videoTranslation: "Переклад відео",
           subtitles: "Переклад субтитрів",
-          transcription: "Транскрипція відео у текст",
+          transcription: "Транскрипція",
           voicing: "Озвучування",
 
           order: "Замовити",
@@ -71,6 +72,8 @@ i18n
           request: "Напишіть ваш запит",
           formSucces: "Форма успішно відправлена!",
           send: "Відправити",
+
+          top: "Вгору",
         },
       },
       en: {
@@ -82,10 +85,10 @@ i18n
 
           mainName: "Translator and Interpreter Iryna Derhachova",
           mainText:
-            "High quality Japanese-English translation and communication",
+            "High quality translation from Japanese to English and communication",
           getConsultation: "Reservation or inquiry",
           serviceText:
-            "I offer accurate, reliable and affordable translation and interpretation from Japanese to English and vice versa. I also work with such language pairs as English-Ukrainian, Japanese-Ukrainian and English-Russian if needed.",
+            "I offer accurate, reliable and affordable translation and interpretation from Japanese to English and vice versa. I also work with such language pairs as English-Ukrainian, Japanese-Ukrainian and English-Russian if required.",
           writtenTranslation: "Written translation",
 
           general: "General",
@@ -97,19 +100,19 @@ i18n
           oral: "Oral (consecutive) translation",
           online: "Online",
           interview: "Interview, report",
-          business: "Business",
-          conference: "Scientific conference",
+          business: "Business meetings",
+          conference: "Lectures and conferences",
           negotiations: "Political negotiations",
           conversation: "Simple conversation on general topics",
 
           spot: "On the spot",
           television: "Television, mass media, radio",
-          socialProjects: "Social projects and organizations",
+          socialProjects: "Social projects",
           accompanying: "Accompanying translation",
 
           videoTranslation: "Video translation",
           subtitles: "Translation of subtitles",
-          transcription: "Transcription of video into text",
+          transcription: "Transcription",
           voicing: "Voicing",
 
           order: "Order",
@@ -133,6 +136,8 @@ i18n
           request: "Your request",
           formSucces: "Your request has been successfully sent!",
           send: "Send",
+
+          top: "TOP",
         },
       },
       jp: {
@@ -144,10 +149,10 @@ i18n
 
           mainName: "翻訳者及び通訳者 イリーナ・デルガチョワ",
           mainText:
-            "高品質のウクライナ語、英語、ロシア語の翻訳や通訳を格安で提供しております。",
+            "高品質のウクライナ語から日本語へ、日本語からウクライナ語への通訳や翻訳、または英語、ロシア語の通訳や翻訳を格安で提供しております。",
           getConsultation: "ご予約・お問い合わせ",
           serviceText:
-            "丁寧で自然な正しい　日本語、ウクライナ語、英語、ロシア語　の翻訳・通訳を格安で提供しております。",
+            "丁寧で自然な正しい日本語⇔ウクライナ語、日本語⇔英語、日本語⇔ロシア語の翻訳・通訳を格安で提供しております。",
           writtenTranslation: "翻訳",
 
           general: "一般文書",
@@ -159,14 +164,14 @@ i18n
           oral: "通訳（逐次通訳）",
           online: "オンライン",
           interview: "インタビューや取材など",
-          business: "ビジネス",
+          business: "ビジネスミーティング",
           conference: "科学会議",
           negotiations: "政治交渉",
           conversation: "一般の話",
 
-          spot: "通訳（逐次通訳）",
-          television: "現地で",
-          socialProjects: "テレビ、ラジオ ソーシャルプロジェクト",
+          spot: "現地で",
+          television: "テレビ、ラジオ、SNSソーシャルプロジェクト",
+          socialProjects: "演説や会議",
           accompanying: "同行通訳",
 
           videoTranslation: "映像翻訳",
@@ -195,6 +200,8 @@ i18n
           request: "ご依頼",
           formSucces: "送信は成功しました。どうもありがとうございます。",
           send: "送信",
+
+          top: "PAGETOP",
         },
       },
     },
