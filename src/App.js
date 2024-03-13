@@ -7,6 +7,9 @@ import Reviews from "./components/Reviews/Reviews";
 import Services from "./components/Services/Services";
 import { LanguageProvider } from "./components/LanguageContext";
 import Footer from "./components/Footer/Footer";
+import EnglishForEarth from "./components/EnglishForEarth/EnglishForEarth";
+import UkrainianCulture from "./components/UkrainianCulture/UkrainianCulture";
+import VolunteerGroup from "./components/VolunteerGroup/VolunteerGroup";
 
 function App() {
   return (
@@ -18,6 +21,9 @@ function App() {
             <Main />
             <Services />
             <AboutMe />
+            <EnglishForEarth />
+            <UkrainianCulture />
+            <VolunteerGroup />
             <Reviews />
             <Contacts />
             <Footer />

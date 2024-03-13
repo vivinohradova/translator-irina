@@ -135,8 +135,9 @@ table {
 p,
 h3,
 li,
-div, figcaption {
-  font-family: $Sawarabi;
+div,
+figcaption {
+  font-family: $MainText;
   font-size: $MainSize;
   line-height: 1.5;
 }
@@ -152,5 +153,5 @@ h2 {
   font-weight: $Bold;
   color: $MainColor;
   text-align: center;
-  font-family: $Sawarabi;
+  font-family: $MainText;
 }
