@@ -1,36 +1,36 @@
 @import "../../assets/scss/Colors.module.scss";
 @import "../../assets/scss/Fonts.module.scss";
 
-.reviews {
-  background: $BackgroundCard;
+.projects {
+  background: $BackgroundPink;
   .container {
+    background: $Background;
     width: 1280px;
     margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0px 4px 15px -2px $Grey;
 
-    .card_container {
+    .content {
       display: flex;
-      align-items: center;
       justify-content: center;
       margin-bottom: $MSections;
-      transition: transform 0.8s ease-in-out;
 
-      .button {
-        padding: 5px 10px;
-        border: none;
-        background: $BackgroundCard;
-        color: $Grey;
-        font-size: $fz46;
-        transition: all 0.5s ease;
-        text-shadow: -1px -1px 1px rgba(255, 255, 255, 0.1),
-          1px 1px 1px rgba(0, 0, 0, 0.5);
+      .textContainer {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        max-width: 500px;
+        text-align: center;
+        padding-right: 50px;
 
-        &:hover {
-          cursor: pointer;
+        .text {
+          padding-bottom: 20px;
         }
+      }
 
-        &:active {
-          color: $HoverColor;
-        }
+      .image {
+        width: 25%;
       }
     }
   }
@@ -38,16 +38,22 @@
 
 // Mobile
 @media screen and (max-width: 520px) {
-  .reviews {
+  .projects {
     .container {
       width: 100%;
+
+      .content {
+        .image {
+          display: none;
+        }
+      }
     }
   }
 }
 
 //  Tablet SD
 @media screen and (min-width: 521px) and (max-width: 768px) {
-  .reviews {
+  .projects {
     .container {
       width: 100%;
     }
@@ -56,7 +62,7 @@
 
 // Tablet HD
 @media screen and (min-width: 769px) and (max-width: 1350px) {
-  .reviews {
+  .projects {
     .container {
       width: 100%;
     }

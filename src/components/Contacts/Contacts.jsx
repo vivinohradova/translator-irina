@@ -1,6 +1,6 @@
 import Form from "../Form/Form";
 import styles from "./Contacts.module.scss";
-import { FaFacebook, FaInstagramSquare, FaTelegram } from "react-icons/fa";
+import { FaFacebook, FaInstagram, FaTelegram } from "react-icons/fa";
 import { useTranslation } from "react-i18next";
 
 const Contacts = () => {
@@ -30,7 +30,7 @@ const Contacts = () => {
                   <FaFacebook className={styles.facebook} />
                 </a>
                 <a href="https://www.instagram.com/iryna_derhachova?igsh=ZDE0aGMzYmZ6dXg4">
-                  <FaInstagramSquare className={styles.instagram} />
+                  <FaInstagram className={styles.instagram} />
                 </a>
                 <a href="https://t.me/dreamiren777">
                   <FaTelegram className={styles.telegram} />

@@ -1,0 +1,36 @@
+@import "../../assets/scss/Colors.module.scss";
+@import "../../assets/scss/Fonts.module.scss";
+
+.popupContainer {
+  text-align: center;
+
+  .buttonClose {
+    border: none;
+    border-radius: 5px;
+    background: $BackgroundPink;
+    width: 100px;
+    height: 35px;
+    transition: all 0.4s ease;
+
+    &:hover {
+      cursor: pointer;
+      background: #ddadaf;
+    }
+
+    &:active {
+      background: $ActiveColor;
+    }
+  }
+
+  .popup {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #fff;
+    padding: 20px;
+    border: 1px solid #ccc;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+    z-index: 1000;
+  }
+}
