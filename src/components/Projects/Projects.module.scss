@@ -2,16 +2,19 @@
 @import "../../assets/scss/Fonts.module.scss";
 
 .projects {
+  background: $BackgroundPink;
   .container {
+    background: $Background;
     width: 1280px;
     margin: 0 auto;
     display: flex;
     flex-direction: column;
-    padding-bottom: $MSections;
+    box-shadow: 0px 4px 15px -2px $Grey;
 
     .content {
       display: flex;
       justify-content: center;
+      margin-bottom: $MSections;
 
       .textContainer {
         display: flex;
@@ -20,11 +23,48 @@
         max-width: 500px;
         text-align: center;
         padding-right: 50px;
+
+        .text {
+          padding-bottom: 20px;
+        }
       }
 
       .image {
         width: 25%;
       }
+    }
+  }
+}
+
+// Mobile
+@media screen and (max-width: 520px) {
+  .projects {
+    .container {
+      width: 100%;
+
+      .content {
+        .image {
+          display: none;
+        }
+      }
+    }
+  }
+}
+
+//  Tablet SD
+@media screen and (min-width: 521px) and (max-width: 768px) {
+  .projects {
+    .container {
+      width: 100%;
+    }
+  }
+}
+
+// Tablet HD
+@media screen and (min-width: 769px) and (max-width: 1350px) {
+  .projects {
+    .container {
+      width: 100%;
     }
   }
 }
