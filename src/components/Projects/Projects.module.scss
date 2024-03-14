@@ -1,0 +1,30 @@
+@import "../../assets/scss/Colors.module.scss";
+@import "../../assets/scss/Fonts.module.scss";
+
+.projects {
+  .container {
+    width: 1280px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: $MSections;
+
+    .content {
+      display: flex;
+      justify-content: center;
+
+      .textContainer {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        max-width: 500px;
+        text-align: center;
+        padding-right: 50px;
+      }
+
+      .image {
+        width: 25%;
+      }
+    }
+  }
+}

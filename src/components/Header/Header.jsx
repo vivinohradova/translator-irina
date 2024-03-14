@@ -2,7 +2,7 @@ import logo from "../../assets/images/logo.png";
 import { useLanguage } from "../LanguageContext";
 import scrollToElement from "../ScrollUtils/ScrollUtils";
 import styles from "./Header.module.scss";
-import { GiHamburgerMenu } from "react-icons/gi";
+// import { GiHamburgerMenu } from "react-icons/gi";
 import { useTranslation } from "react-i18next";
 import { useEffect, useState } from "react";
 
@@ -58,19 +58,26 @@ const Header = () => {
             </li>
 
             <li>
+              <a href="#projects" onClick={(e) => handleClick(e, "projects")}>
+                <button type="button">{"Проекти"}</button>
+              </a>
+            </li>
+
+            <li>
               <a href="#reviews" onClick={(e) => handleClick(e, "reviews")}>
                 <button type="button">{t("menuReviews")}</button>
               </a>
             </li>
+
             <li>
               <a href="#contacts" onClick={(e) => handleClick(e, "contacts")}>
                 <button type="button">{t("menuContact")}</button>
               </a>
             </li>
           </nav>
-          <nav className={styles.menu_mobile}>
+          {/* <nav className={styles.menu_mobile}>
             <GiHamburgerMenu className={styles.gamburger} />
-          </nav>
+          </nav> */}
         </div>
       </header>
     </>
