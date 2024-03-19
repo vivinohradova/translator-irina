@@ -61,6 +61,10 @@
   .projects {
     .container {
       width: 100%;
+
+      .content {
+        padding: $PaddingTablet;
+      }
     }
   }
 }
@@ -70,6 +74,9 @@
   .projects {
     .container {
       width: 100%;
+      .content {
+        padding: $PaddingTablet;
+      }
     }
   }
 }
