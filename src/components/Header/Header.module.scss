@@ -72,7 +72,7 @@ header {
       }
     }
 
-    .menu_mobile {
+    .mobile {
       display: none;
       .gamburger {
         margin: 20px;
@@ -88,14 +88,50 @@ header {
       width: 100%;
 
       .menu {
+        display: none;
+      }
+      .gamburger {
+        position: relative;
+        margin: 20px;
+
+        &:hover {
+          cursor: pointer;
+        }
+        &:active {
+          color: $Grey;
+        }
+      }
+
+      .mobile {
         display: block;
-        padding: $PaddingMobile;
 
-        li {
-          list-style: none;
+        .menu_mobile {
+          display: none;
+          transition: all 0.3s ease;
 
-          &:first-child button {
-            margin-left: 30px;
+          flex-direction: column;
+          position: absolute;
+          top: 58px;
+          right: 40px;
+          display: flex;
+          width: 150px;
+          background: $Background;
+          box-shadow: 0px 4px 15px -2px $Grey;
+
+          li {
+            list-style: none;
+            button {
+              border: none;
+              background-color: $Background;
+              color: $MainColor;
+              cursor: pointer;
+
+              transition: 0.4s ease;
+
+              &:hover {
+                color: $HoverColor;
+              }
+            }
           }
         }
       }
@@ -110,12 +146,52 @@ header {
       width: 100%;
 
       .menu {
-        display: block;
-        padding: $PaddingTablet;
+        display: none;
+      }
+      .gamburger {
+        position: relative;
+        margin: 20px;
 
-        li {
-          &:first-child button {
-            margin-left: 30px;
+        &:hover {
+          cursor: pointer;
+        }
+        &:active {
+          color: $Grey;
+        }
+      }
+
+      .mobile {
+        display: block;
+
+        .menu_mobile {
+          display: none;
+          transition: all 0.3s ease;
+
+          flex-direction: column;
+          position: absolute;
+          top: 58px;
+          right: 40px;
+          display: flex;
+          width: 170px;
+          background: $Background;
+          box-shadow: 0px 4px 15px -2px $Grey;
+
+          li {
+            list-style: none;
+            button {
+              border: none;
+              background-color: $Background;
+              color: $MainColor;
+              font-weight: $Bold;
+              font-size: $fz20;
+              cursor: pointer;
+
+              transition: 0.4s ease;
+
+              &:hover {
+                color: $HoverColor;
+              }
+            }
           }
         }
       }
