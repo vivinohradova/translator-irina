@@ -2,6 +2,7 @@ import styles from "./Reviews.module.scss";
 import CardReviews from "../CardReviews/CardReviews";
 import { useEffect, useRef, useState } from "react";
 import { useTranslation } from "react-i18next";
+import { FaAngleDoubleLeft, FaAngleDoubleRight } from "react-icons/fa";
 
 const usersData = [
   {
@@ -83,13 +84,21 @@ const Reviews = () => {
         <div className={styles.container}>
           <h2>{t("menuReviews")}</h2>
           <div className={styles.card_container}>
-            <button className={styles.button} onClick={handlePrevClick}>
-              &#60;
-            </button>
             <CardReviews {...translatedUsersData[activeCardIndex]} />
-            <button className={styles.button} onClick={handleNextClick}>
-              &#62;
-            </button>
+            <div className={styles.buttons}>
+              <FaAngleDoubleLeft
+                className={styles.button}
+                onClick={handlePrevClick}
+              >
+                &#60;
+              </FaAngleDoubleLeft>
+              <FaAngleDoubleRight
+                className={styles.button}
+                onClick={handleNextClick}
+              >
+                &#62;
+              </FaAngleDoubleRight>
+            </div>
           </div>
         </div>
       </section>

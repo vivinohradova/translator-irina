@@ -43,7 +43,6 @@
               padding: 5px 10px;
               margin: 30px 10px;
               animation: animate 3s linear infinite;
-              text-shadow: $MainColor;
 
               &:hover {
                 transform: scale(1.1);
@@ -52,7 +51,7 @@
             margin: 5px;
           }
           .instagram {
-            animation-delay: 4.7s;
+            animation-delay: 2s;
           }
 
           .telegram {
