@@ -43,6 +43,11 @@
       width: 100%;
 
       .content {
+        padding: $PaddingMobile;
+        .textContainer {
+          padding-right: 0;
+        }
+
         .image {
           display: none;
         }
