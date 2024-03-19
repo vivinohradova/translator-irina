@@ -59,7 +59,7 @@ const Header = () => {
 
             <li>
               <a href="#projects" onClick={(e) => handleClick(e, "projects")}>
-                <button type="button">{"Проекти"}</button>
+                <button type="button">{t("menuProjects")}</button>
               </a>
             </li>
 

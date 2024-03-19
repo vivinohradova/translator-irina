@@ -18,6 +18,7 @@ i18n
           menuAboutMe: "Про мене",
           menuReviews: "Відгуки",
           menuContact: "Контакти",
+          menuProjects: "Проекти",
 
           mainName: "Перекладач Ірина Дергачова",
           mainText:
@@ -63,7 +64,16 @@ i18n
           aboutMe2:
             "<0><p>З травня 2020 по липень 2021 року - працювала перекладачем та веб-дизайнером в японській IT компанії Demand-Link.</p><p>З 2022 року співпрацюю з японськими перекладацькими конторами Linegate, Sunflare, Intergroup, Franchir. Працювала у відділі міжнародних новин на каналі TBS. Перекладала для НПО та організацій, що підтримують біженців NPO Kraiyany, CINGA, FRJ, Arrupe Refugee Center, Minato International Association (MIA). Я маю багатий досвід з перекладу і спілкування з людьми.</p><p>У 2023 р. створила благодійний проект “Японська з серцем”, де викладаю японську мову на волонтерських засадах. Займаюся поширенням української культури, зокрема викладаю приготування українських страв та вишивання хрестиком. Маю сертифікат тренера з емоційного інтелекту та 2 ступінь енергетичного зцілення Рейкі.</p></0>",
 
-          reviews: "Відгуки",
+          projectTextEng:
+            "Проект вивчення англійської мови “English for Earth Citizen” - “Англійська для громадян Землі”. Уроки англійської для закордонних подорожей, роботи за кордоном, взаємодії з іноземцями, міжнародного бізнесу, проектів, трансляцій та підприємців. Будь ласка, зв'яжіться зі мною, якщо ви зацікавлені.",
+          projectTitleUA: "Українська культура",
+          projectTextUA:
+            "Також приймаються заявки на уроки української кулінарії, майстер-класи з вишивання, виступи тощо в Японії. Будь ласка, зв'яжіться з нами.",
+          projectTitleVolunteer: "Японська з серцем",
+          projectTextVolunteer:
+            "Доєднуйтеся до волонтерської групи з вивчення японської мови “Японська з серцем”. Будь ласка, зв'яжіться з нами.",
+          getInTouch: "Зв'язатися",
+
           userName1: "Хідео Накамура",
           userName2: "Курода",
           userName3: "Дайсаку Йошімура",
@@ -121,6 +131,7 @@ i18n
           menuAboutMe: "About me",
           menuReviews: "Reviews",
           menuContact: "Contact",
+          menuProjects: "Projects",
 
           mainName: "Translator and Interpreter Iryna Derhachova",
           mainText:
@@ -166,7 +177,16 @@ i18n
           aboutMe2:
             "<0><p>From May 2020 to July 2021, I worked as a translator and web designer at the Japanese IT company Demand-Link.</p><p>Since 2022, I have been cooperating with Japanese translation agencies Linegate, Sunflare, Intergroup, Franchir. I worked in the international news department on the TBS channel. Furthermore I translated for NGOs and organizations supporting refugees: NPO Kraiyany, CINGA, FRJ, Arrupe Refugee Center, Minato International Association (MIA). I have extensive experience in translation and communication with people.</p><p>In 2023, I created the charity project 'Japanese with a heart', where I teach Japanese on a volunteer basis. I am involved in the spread of Ukrainian culture, in particular, I teach the preparation of Ukrainian dishes and cross-stitch embroidery. I have a certificate of an emotional intelligence trainer and a 2nd degree Reiki energy healing certificate.</p></0>",
 
-          reviews: "Reviews",
+          projectTextEng:
+            "Project “English for Earth Citizen”. English lessons for overseas travel, overseas work, interaction with foreigners, international business, international projects, streaming for overseas, and international entrepreneurs. Please contact me if you are interested.",
+          projectTitleUA: "Ukrainian culture",
+          projectTextUA:
+            "We also accept requests for Ukrainian cooking classes, embroidery workshops, speeches, etc. in Japan. Please contact us.",
+          projectTitleVolunteer: "Japanese with Heart",
+          projectTextVolunteer:
+            "Join the volunteer Japanese language learning group 'Japanese with Heart'. Please contact us.",
+          getInTouch: "Get in touch",
+
           userName1: "Hideo Nakamura",
           userName2: "Kuroda",
           userName3: "Daisaku Yoshimura",
@@ -224,6 +244,7 @@ i18n
           menuAboutMe: "私について",
           menuReviews: "お客様の声",
           menuContact: "ご予約",
+          menuProjects: "プロジェクト",
 
           mainName: "翻訳者及び通訳者 イリーナ・デルガチョワ",
           mainText:
@@ -269,7 +290,16 @@ i18n
           aboutMe2:
             "<0><p>2020年5月から2021年7月まで、日本のIT企業Demand-Linkで翻訳者兼Webデザイナーとして働いていました。</p><p>2022年から日本の翻訳会社であるラインゲート、サンフレア、インターグループ、フランシールと協力してきました。 TBSチャンネルの国際報道部で働いていました。 さらに、NPOクライヤニー、CINGA、FRJ、アルペ難民センター、みなと国際協会（MIA）などのNGOや難民支援団体の翻訳も担当しています。 翻訳と人々とのコミュニケーションにおいて豊富な経験があります。</p><p>2023年にはボランティアで日本語を教えるチャリティープロジェクト「日本語とハート」を立ち上げました。 ウクライナ文化の普及に携わっており、特にウクライナ料理の作り方とクロスステッチ刺繍を教えています。 感情的知性トレーナーの資格と第 2 級レイキエネルギーヒーリングの資格を持っています。</p></0>",
 
-          reviews: "お客様の声",
+          projectTextEng:
+            "地球市民になるための英語“English for Earth Citizen”。海外旅行、海外の仕事、外国人との交流、国際業務、インタナショナルプロジェクト、海外への配信、国際起業家のための英語のレッスンです。ご興味をお持ちの方は お問い合わせください。",
+          projectTitleUA: "ウクライナの文化",
+          projectTextUA:
+            "日本でウクライナ料理教室や刺繍ワークショップ、演説などのご依頼も承ります。お問い合わせください。",
+          projectTitleVolunteer: "心ある日本語",
+          projectTextVolunteer:
+            "現在はウクライナからの避難民に日本語を教えています。 ボランティア日本語学習グループ「心ある日本語」にサポートやご協力が必要です。お問い合わせください。",
+          getInTouch: "連絡する",
+
           userName1: "中村　英夫",
           userName2: "黒田",
           userName3: "吉村大作",

@@ -60,6 +60,7 @@ const Reviews = () => {
     }
 
     return () => clearInterval(intervalRef.current);
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [autoSwitchEnabled]);
 
   const handlePrevClick = () => {
@@ -80,7 +81,7 @@ const Reviews = () => {
     <>
       <section id="reviews" className={styles.reviews}>
         <div className={styles.container}>
-          <h2>{t("reviews")}</h2>
+          <h2>{t("menuReviews")}</h2>
           <div className={styles.card_container}>
             <button className={styles.button} onClick={handlePrevClick}>
               &#60;
