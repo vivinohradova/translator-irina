@@ -20,6 +20,8 @@ i18n
           menuContact: "Контакти",
           menuProjects: "Проекти",
 
+          close: "Закрити",
+
           mainName: "Перекладач Ірина Дергачова",
           mainText:
             "Високоякісні переклади з/на японську та англійську мову. Викладання японської та англійської мови, майстер-класи.",
@@ -133,6 +135,8 @@ i18n
           menuContact: "Contact",
           menuProjects: "Projects",
 
+          close: "Close",
+
           mainName: "Translator and Interpreter Iryna Derhachova",
           mainText:
             "High quality translation from Japanese to English and communication",
@@ -245,6 +249,8 @@ i18n
           menuReviews: "お客様の声",
           menuContact: "ご予約",
           menuProjects: "プロジェクト",
+
+          close: "近い",
 
           mainName: "翻訳者及び通訳者 イリーナ・デルガチョワ",
           mainText:

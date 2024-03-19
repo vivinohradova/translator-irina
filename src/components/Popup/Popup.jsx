@@ -1,7 +1,10 @@
 import styles from "./Popup.module.scss";
 import Form from "../Form/Form";
+import { useTranslation } from "react-i18next";
 
 const Popup = ({ isPopupOpen, togglePopup }) => {
+  const { t } = useTranslation();
+
   return (
     <>
       <div className={styles.popupContainer}>
@@ -10,7 +13,7 @@ const Popup = ({ isPopupOpen, togglePopup }) => {
             <div className={styles.popupContent}>
               <Form />
               <button className={styles.buttonClose} onClick={togglePopup}>
-                Закрити
+                {t("close")}
               </button>
             </div>
           </div>
