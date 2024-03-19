@@ -1,5 +1,4 @@
 import styles from "./Main.module.scss";
-// import Button from "../Button/Button";
 import { useTranslation } from "react-i18next";
 import Popup from "../Popup/Popup";
 import { useState } from "react";
@@ -20,7 +19,7 @@ const Main = () => {
           <p className={styles.text}>{t("mainText")}</p>
           {!isPopupOpen && (
             <button className={styles.button} onClick={togglePopup}>
-              Отримати консультацію
+              {t("getConsultation")}
             </button>
           )}
           <Popup isPopupOpen={isPopupOpen} togglePopup={togglePopup} />

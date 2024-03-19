@@ -3,6 +3,7 @@ import irina2 from "../../assets/images/irina2.jpg";
 import irina3 from "../../assets/images/irina3.jpg";
 import document1 from "../../assets/images/document1.jpg";
 import document2 from "../../assets/images/document2.jpg";
+import document3 from "../../assets/images/document3.jpg";
 import { Trans, useTranslation } from "react-i18next";
 
 const AboutMe = () => {
@@ -64,6 +65,7 @@ const AboutMe = () => {
             <figure className={styles.documents}>
               <img src={document1} alt="certificate" />
               <img src={document2} alt="diploma" />
+              <img src={document3} alt="diploma" />
             </figure>
           </div>
         </div>
