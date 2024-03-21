@@ -29,7 +29,7 @@ const Form = () => {
         headers: {
           "Content-Type": "application/json",
         },
-        body: new URLSearchParams({
+        body: new FormData({
           name,
           phoneNumber,
           email,
