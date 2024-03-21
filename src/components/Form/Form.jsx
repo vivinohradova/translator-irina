@@ -24,12 +24,12 @@ const Form = () => {
     e.preventDefault();
 
     try {
-      const response = await fetch("sendmail.php", {
+      const response = await fetch("../../../sendmail.php", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
         },
-        body: new FormData({
+        body: JSON.stringify({
           name,
           phoneNumber,
           email,
