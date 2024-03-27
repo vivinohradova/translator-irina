@@ -142,6 +142,7 @@ const Form = () => {
         <button className={styles.button} disabled={isDisabled}>
           {t("send")}
         </button>
+        <p className={styles.agreeText}>{t("formAgree")}</p>
       </form>
     </>
   );

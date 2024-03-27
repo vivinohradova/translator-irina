@@ -27,7 +27,11 @@ const Footer = () => {
           </p>
           <p className={styles.rights}>
             Website Development:
-            <a className={styles.developerLink} href="/">
+            <a
+              className={styles.developerLink}
+              href="https://www.instagram.com/frontend_vika/"
+              target="blank"
+            >
               Vynohradova Viktoriia
             </a>
           </p>

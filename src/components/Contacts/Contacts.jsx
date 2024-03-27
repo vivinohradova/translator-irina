@@ -26,13 +26,19 @@ const Contacts = () => {
               </p>
               <h4>{t("city")}</h4>
               <div className={styles.social_media}>
-                <a href="https://www.facebook.com/profile.php/?id=100002520567489">
+                <a
+                  href="https://www.facebook.com/profile.php/?id=100002520567489"
+                  target="blank"
+                >
                   <FaFacebook className={styles.facebook} />
                 </a>
-                <a href="https://www.instagram.com/iryna_derhachova?igsh=ZDE0aGMzYmZ6dXg4">
+                <a
+                  href="https://www.instagram.com/iryna_derhachova?igsh=ZDE0aGMzYmZ6dXg4"
+                  target="blank"
+                >
                   <FaInstagramSquare className={styles.instagram} />
                 </a>
-                <a href="https://t.me/dreamiren777">
+                <a href="https://t.me/dreamiren777" target="blank">
                   <FaTelegram className={styles.telegram} />
                 </a>
               </div>

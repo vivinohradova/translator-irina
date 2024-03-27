@@ -24,10 +24,10 @@ i18n
 
           mainName: "Перекладач Ірина Дергачова",
           mainText:
-            "Високоякісні переклади з/на японську та англійську мову. Викладання японської та англійської мови, майстер-класи.",
+            "Надаю високоякісні переклади на японську та англійську мову. Проводжу заняття з вивчення японської та англійської мови, а також майстер-класи.",
           getConsultation: "Отримати консультацію",
           serviceText:
-            "Пропоную достовірний та якісний переклад з японської на українську, з української на японську, а також з української на англійську, з англійської на українську мову.",
+            "Пропоную достовірний та якісний переклад з японської на українську, з української на японську, а також з англійської на українську мову та з української на англійську.",
           writtenTranslation: "Письмовий переклад",
 
           general: "Загальний",
@@ -64,16 +64,16 @@ i18n
           aboutMe:
             "<0>Мене звати Дергачова Ірина, я перекладач з японської та англійської мов з 2014 року. Маю досвід в роботі з загальним, юридичним, медичним, науковим, соціальним і бізнес перекладом. Працюю як з усним перекладом, так і письмовим. Закінчила два університети в Україні - ХНПУ імені Г.С. Сковороди (бакалавр) та КНУ імені Т.Г. Шевченка (магістр) за спеціальністю японська та англійська мова і переклад. Маю сертифікат з рівню знання японської JLPT N1 (найвищий рівень).<p>Я переможець японського конкурсу промов у місті Київ, завдяки чому змогла вперше поїхати до Японії за дослідницькою програмою Japan Foundation (Osaka) у 2015 році.</p><p>2016 - 2018 працювала викладачем японської мови в університеті УДУ імені Драгоманова.</p><p>З 2019 року я працювала у Японії у коледжі в Нагої у відділі підтримки міжнародних студентів.</p></0>",
           aboutMe2:
-            "<0><p>З травня 2020 по липень 2021 року - працювала перекладачем та веб-дизайнером в японській IT компанії Demand-Link.</p><p>З 2022 року співпрацюю з японськими перекладацькими конторами Linegate, Sunflare, Intergroup, Franchir. Працювала у відділі міжнародних новин на каналі TBS. Перекладала для НПО та організацій, що підтримують біженців NPO Kraiyany, CINGA, FRJ, Arrupe Refugee Center, Minato International Association (MIA). Я маю багатий досвід з перекладу і спілкування з людьми.</p><p>У 2023 р. створила благодійний проект “Японська з серцем”, де викладаю японську мову на волонтерських засадах. Займаюся поширенням української культури, зокрема викладаю приготування українських страв та вишивання хрестиком. Маю сертифікат тренера з емоційного інтелекту та 2 ступінь енергетичного зцілення Рейкі.</p></0>",
+            "<0><p>З травня 2020 по липень 2021 року - працювала перекладачем та веб-дизайнером в японській IT компанії Demand-Link.</p><p>З 2022 року співпрацюю з японськими перекладацькими конторами Linegate, Sunflare, Intergroup, Franchir. Працювала у відділі міжнародних новин на каналі TBS. Перекладала для НПО та організацій, що підтримують біженців NPO Kraiyany, CINGA, FRJ, Arrupe Refugee Center, Minato International Association (MIA). Я маю багатий досвід з перекладу і спілкування з людьми.</p><p>У 2023 р. створила благодійний проект “Японська з серцем”, де викладаю японську мову на волонтерських засадах. Займаюся поширенням української культури, зокрема викладаю приготування українських страв та вишивання хрестиком. Крім того, у 2023 році проводила заняття з розмовної англійської мови, для підготовки волонтерів, а з 2024 року проводжу навчання англійській мові та EQ (емоційний інтелект), щоб допомогти людям стати громадянами світу. Маю сертифікат тренера з емоційного інтелекту та 2 ступінь енергетичного зцілення Рейкі.</p></0>",
 
           projectTextEng:
-            "Проект вивчення англійської мови “English for Earth Citizen” - “Англійська для громадян Землі”. Уроки англійської для закордонних подорожей, роботи за кордоном, взаємодії з іноземцями, міжнародного бізнесу, проектів, трансляцій та підприємців. Будь ласка, зв'яжіться зі мною, якщо ви зацікавлені.",
+            "Проект вивчення англійської мови “English for Earth Citizen” - “Англійська для громадян Землі”. Уроки англійської для закордонних подорожей, роботи за кордоном, взаємодії з іноземцями, міжнародного бізнесу, проектів, трансляцій та підприємців. Включає тренування з емоційного інтелекту. Будь ласка, зв'яжіться зі мною, якщо ви зацікавлені.",
           projectTitleUA: "Українська культура",
           projectTextUA:
-            "Також приймаються заявки на уроки української кулінарії, майстер-класи з вишивання, виступи тощо в Японії. Будь ласка, зв'яжіться з нами.",
+            "Українська культура охоплює матеріальні та духовні цінності, що склалися протягом історії України. Сильні сімейні цінності та релігійні переконання глибоко вкорінені в українському суспільстві та відіграють значну роль у формуванні культури країни. Традиції української вишивки та народної музики також є невід’ємною частиною культурної ідентичності України. Як людина, яка захоплюється популяризацією української культури та миротворчої освіти, я відкрита до прохань щодо проведення уроків української кулінарії, майстер-класів з вишивання та інших культурних заходів. Крім того, я готова виступати з промовами на такі теми, як культура, мир і глобальне громадянство, як в Японії, так і в усьому світі. Будь ласка, не соромтеся зв’язатися зі мною, якщо ви зацікавлені.",
           projectTitleVolunteer: "Японська з серцем",
           projectTextVolunteer:
-            "Доєднуйтеся до волонтерської групи з вивчення японської мови “Японська з серцем”. Будь ласка, зв'яжіться з нами.",
+            "Наразі я викладаю японську мову онлайн евакуйованим до Японії українцям. Цей проект називається “Японська з серцем”. Якщо ви бажаєте доєднатися до волонтерської групи з вивчення японської мови “Японська з серцем” або допомогти проекту з викладанням, книжками, надати фінансову підтримку, будь ласка зв'яжіться зі мною.",
           getInTouch: "Зв'язатися",
 
           userName1: "Хідео Накамура",
@@ -122,6 +122,8 @@ i18n
           formMail: "Ваша пошта",
           request: "Напишіть ваш запит",
           formSucces: "Форма успішно відправлена!",
+          formAgree:
+            "*Натискаючи кнопку, ви даєте згоду на обробку персональних даних і погоджуєтесь з політикою конфіденційності",
           send: "Відправити",
 
           top: "Вгору",
@@ -139,10 +141,10 @@ i18n
 
           mainName: "Translator and Interpreter Iryna Derhachova",
           mainText:
-            "High quality translation from Japanese to English and communication",
+            "High-quality translation services from Japanese to English and from English to Japanese. Additionally, I provide effective communication in Ukrainian and Russian. I am available for workshops and public speaking as well.",
           getConsultation: "Reservation or inquiry",
           serviceText:
-            "I offer accurate, reliable and affordable translation and interpretation from Japanese to English and vice versa. I also work with such language pairs as English-Ukrainian, Japanese-Ukrainian and English-Russian if required.",
+            "I offer accurate, reliable, and affordable translation and interpretation services from Japanese to English and vice versa. I also work with language pairs such as English-Ukrainian, Japanese-Ukrainian, and English-Russian if needed.",
           writtenTranslation: "Written translation",
 
           general: "General",
@@ -162,7 +164,7 @@ i18n
           spot: "On the spot",
           television: "Television, mass media, radio",
           socialProjects: "Social projects",
-          accompanying: "Accompanying translation",
+          accompanying: "Accompanying interpreter",
 
           videoTranslation: "Video translation",
           subtitles: "Translation of subtitles",
@@ -177,18 +179,18 @@ i18n
 
           aboutMeTitle: "About me",
           aboutMe:
-            "<0>My name is Iryna Derhachova, I have been a Japanese, English, Ukrainian translator and interpreter since 2014. I have experience in working with general, legal, medical, scientific, social and business translation. I work with both oral and written translation. I graduated from two universities in Ukraine - Kharkiv National Pedagogical University named after H.S. Skovorody (bachelor) and Kyiv National University named after T.G. Shevchenko (master's degree) majoring in Japanese and English language and translation. I have a certificate of Japanese JLPT N1 (the highest level).<p>I am the winner of the Japanese speech contest in the city of Kyiv, thanks to which I was able to go to Japan for the first time under the research program of the Japan Foundation (Osaka) in 2015.</p><p>From 2016 to 2018, I worked as a Japanese language instructor at Drahomanov State University.</p><p>Since 2019, I have been working in Japan at a college in Nagoya in the international student support department.</p></0>",
+            "<0>My name is Iryna Derhachova, and I have been working as a translator and interpreter for Japanese, English, and Ukrainian since 2014. I have experience in various fields such as general translation, legal translation, medical translation, scientific translation, social translation, and business translation. I provide both oral and written translation services. I have a bachelor's degree from Kharkiv National Pedagogical University named after H.S. Skovorody and a master's degree from Kyiv National University named after T.G. Shevchenko, majoring in Japanese and English language and translation. I am also certified in Japanese JLPT N1, which is the highest level of proficiency.<p>I have achieved several accomplishments throughout my career. In 2015, I won a Japanese speech contest in Kyiv, which allowed me to participate in a research program at the Japan Foundation in Osaka.</p><p>From 2016 to 2018, I worked as a Japanese language instructor at Drahomanov State University.</p><p>Since 2019, I have been working in Japan at a college in Nagoya, specifically in the international student support department.</p></0>",
           aboutMe2:
-            "<0><p>From May 2020 to July 2021, I worked as a translator and web designer at the Japanese IT company Demand-Link.</p><p>Since 2022, I have been cooperating with Japanese translation agencies Linegate, Sunflare, Intergroup, Franchir. I worked in the international news department on the TBS channel. Furthermore I translated for NGOs and organizations supporting refugees: NPO Kraiyany, CINGA, FRJ, Arrupe Refugee Center, Minato International Association (MIA). I have extensive experience in translation and communication with people.</p><p>In 2023, I created the charity project 'Japanese with a heart', where I teach Japanese on a volunteer basis. I am involved in the spread of Ukrainian culture, in particular, I teach the preparation of Ukrainian dishes and cross-stitch embroidery. I have a certificate of an emotional intelligence trainer and a 2nd degree Reiki energy healing certificate.</p></0>",
+            "<0><p>From May 2020 to July 2021, I worked as a translator and web designer at the Japanese IT company Demand-Link.</p><p>Since 2022, I have been collaborating with Japanese translation agencies such as Linegate, Sunflare, Intergroup, and Franchir. I have also worked in the international news department at TBS channel and provided translation services for NGOs and organizations supporting refugees, including NPO Kraiyany, CINGA, FRJ, Arrupe Refugee Center, and Minato International Association (MIA). I have extensive experience in translation and communication with people.</p><p>In 2023, I initiated the charity project 'Japanese with a Heart', where I volunteer to teach Japanese. I am also involved in promoting Ukrainian culture, particularly in teaching Ukrainian cuisine and cross-stitch embroidery. In 2023 I was holding English conversation classes to train volunteers, and from 2024 I am providing English and EQ (emotional intelligence) coaching to help people become global citizens. Additionally, I hold certifications as an emotional intelligence trainer and a second-degree Reiki energy healer.</p></0>",
 
           projectTextEng:
-            "Project “English for Earth Citizen”. English lessons for overseas travel, overseas work, interaction with foreigners, international business, international projects, streaming for overseas, and international entrepreneurs. Please contact me if you are interested.",
+            "Project “English for Earth Citizen”. English lessons for overseas travel, overseas work, interaction with foreigners, international business, international projects, streaming for overseas, and international entrepreneurs. English for Earth citizen includes EQ coaching. Please contact me if you are interested.",
           projectTitleUA: "Ukrainian culture",
           projectTextUA:
-            "We also accept requests for Ukrainian cooking classes, embroidery workshops, speeches, etc. in Japan. Please contact us.",
+            "Ukrainian culture encompasses the material and spiritual values that have developed throughout the history of Ukraine. Strong family values and religious beliefs are deeply rooted in Ukrainian society, and they play a significant role in shaping the country's culture. The traditions of Ukrainian embroidery and folk music are also integral to the cultural identity of Ukraine. As someone who is passionate about promoting Ukrainian culture and peace education, I am open to requests for Ukrainian cooking classes, embroidery workshops, and other cultural activities. Additionally, I am available to deliver speeches on topics such as culture, peace, and global citizenship, both in Japan and around the world. Please feel free to reach out to me if you are interested.",
           projectTitleVolunteer: "Japanese with Heart",
           projectTextVolunteer:
-            "Join the volunteer Japanese language learning group 'Japanese with Heart'. Please contact us.",
+            "I am currently teaching Japanese online to Ukrainians who have been evacuated to Japan. This project is called 'Japanese with Heart'. If you would like to join the volunteer group for Japanese language study, 'Japanese with Heart', or if you would like to contribute by helping with teaching, providing books, or offering financial support to the project, please feel free to contact me",
           getInTouch: "Get in touch",
 
           userName1: "Hideo Nakamura",
@@ -237,6 +239,8 @@ i18n
           formMail: "Your e-mail",
           request: "Your request",
           formSucces: "Your request has been successfully sent!",
+          formAgree:
+            "*By clicking the button, you consent to the processing of personal data and agree to the privacy policy",
           send: "Send",
 
           top: "TOP",
@@ -350,6 +354,8 @@ i18n
           formMail: "メール",
           request: "ご依頼",
           formSucces: "送信は成功しました。どうもありがとうございます。",
+          formAgree:
+            "「ボタンをクリックすると、個人データの処理に同意し、プライバシーポリシーに同意したことになります。」",
           send: "送信",
 
           top: "PAGETOP",

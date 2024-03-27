@@ -41,14 +41,13 @@
             svg {
               font-size: $fz24;
               padding: 5px 10px;
-              margin: 30px 10px;
+              margin: 30px 7px;
               animation: animate 3s linear infinite;
 
               &:hover {
                 transform: scale(1.1);
               }
             }
-            margin: 5px;
           }
           .instagram {
             animation-delay: 2s;
